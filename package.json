@@ -1,0 +1,18 @@
+{
+    "name": "calculator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "testcafe chrome myTests.ts",
+        "start": "tsc && node index.js",
+        "build": "tsc"
+    },    
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "testcafe": "^3.3.0",
+        "typescript": "^5.2.2"
+    }
+}
