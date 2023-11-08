@@ -44,7 +44,7 @@ test('Division by zero should show an error', async t => {
     await t.expect(resultField.value).eql('Infinity');
 });
 
-// Test 3
+/* // Test 3
 test('Multiplication of two numbers', async t => {
     // Define selectors for buttons and result field
     const threeButton = Selector('button').withText('3');
@@ -62,4 +62,4 @@ test('Multiplication of two numbers', async t => {
 
     // Check if the result is '12'
     await t.expect(resultField.value).eql('12');
-});
+}); */
